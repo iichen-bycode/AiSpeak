@@ -7,12 +7,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
 
     defaultConfig {
         applicationId "cn.iichen.aispeak"
         minSdk 21
-        targetSdk 32
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
@@ -54,4 +54,7 @@ dependencies {
         implementation "com.github.permissions-dispatcher:permissionsdispatcher:4.9.1"
         kapt "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.9.1"
     }
+
+
+    implementation 'com.blankj:utilcodex:1.31.0'
 }

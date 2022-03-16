@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AiSpeak</string>
+    <string name="aispeak_desc">快速便捷的协助您识别读取屏幕内您点击的文本内容(仅用于文盲群众)</string>
+    <string name="automatic_jump_desc">自动无障碍跳转</string>
+    <string name="adaptation_wx_version">当前适配微信版本: Version 8.0.20</string>
+    <string name="faq">1. 适配微信等所有文本点击，点击后自动朗读。\n2. 若您的手机或微信版本不可用，您可以上传您的手机型号以及微信版本号以供进行适配</string>
 </resources>
