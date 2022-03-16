@@ -1,19 +1,15 @@
-package cn.iichen.aispeak.app
-
-import android.app.Application
-import com.tencent.bugly.Bugly
-import com.tencent.bugly.beta.Beta
+package cn.iichen.aispeak
 
 /**
  *
  * @ProjectName:    AiSpeak
- * @Package:        cn.iichen.aispeak.app
- * @ClassName:      App
+ * @Package:        cn.iichen.aispeak
+ * @ClassName:      UpdateDialogFragment
  * @Description:     java类作用描述
  * @Author:         作者名 qsdiao
- * @CreateDate:     2022/3/16 21:57
+ * @CreateDate:     2022/3/16 22:33
  * @UpdateUser:     更新者：qsdiao
- * @UpdateDate:     2022/3/16 21:57
+ * @UpdateDate:     2022/3/16 22:33
  * @UpdateRemark:   更新说明：Fuck code, go to hell, serious people who maintain it：
  * @Version:        更新说明: 1.0
 ┏┓　　　┏┓
@@ -36,11 +32,5 @@ import com.tencent.bugly.beta.Beta
  */
 
 
-class App : Application(){
-    override fun onCreate() {
-        super.onCreate()
-        Bugly.init(applicationContext, "e8f033fa2d", true);
-        Beta.autoCheckUpgrade = false
-        Beta.showInterruptedStrategy = true
-    }
+class UpdateDialogFragment {
 }

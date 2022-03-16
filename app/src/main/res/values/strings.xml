@@ -4,4 +4,5 @@
     <string name="automatic_jump_desc">自动无障碍跳转</string>
     <string name="adaptation_wx_version">当前适配微信版本: Version 8.0.20</string>
     <string name="faq">1. 适配微信等所有文本点击，点击后自动朗读。\n2. 若您的手机或微信版本不可用，您可以上传您的手机型号以及微信版本号以供进行适配</string>
+    <string name="current_version">当前apk版本：V%1$s</string>
 </resources>
