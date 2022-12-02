@@ -46,7 +46,11 @@ class MainActivity : AppCompatActivity() {
             param.setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle("无障碍")
                 .setContentText("点击您需要识别的文本，它将会读给你听！")
-                .setContentIntent(PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT))
+                .setContentIntent(
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S)
+                        PendingIntent.getActivity(this, 123, intent, PendingIntent.FLAG_IMMUTABLE)
+                    else
+                        PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT))
                 .setAutoCancel(false)
                 .setOngoing(true)
         }
